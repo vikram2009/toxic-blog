@@ -1,7 +1,2 @@
-# Tauri + Next.js
-
-This template should help get you started developing with Tauri and Next.js.
-
-## Recommended IDE Setup
-
-- [VS Code](https://code.visualstudio.com/) + [Tauri](https://marketplace.visualstudio.com/items?itemName=tauri-apps.tauri-vscode) + [rust-analyzer](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer)
+### Welcome to Canvas 
+## canvas is a smart blog which helps coders understand coding topics in a better way
