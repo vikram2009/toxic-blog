@@ -1,0 +1,50 @@
+.content {
+  justify-content: center;
+  align-items: center;
+padding: 140px;
+  padding-left:546px;
+}
+
+
+.form label {
+    display: block;
+    margin-bottom: .2rem;
+}
+
+.form  button {
+  cursor: pointer;
+color: white;
+border: 0px;
+border-radius: .2rem;
+background-color: blueviolet;
+padding: .8em 1em;
+
+}
+
+.form textarea {
+    width: 30rem;
+    height: 9rem;
+    font-family: 'Times New Roman bold';
+    font-weight: italic ;
+}
+
+.p input{
+width: 30rem;
+}
+
+@media only screen and (max-width: 750px) {
+  .content {
+    justify-content: center;
+  align-items: center;
+padding: 140px;
+  padding-left:155px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .content {
+    justify-content: center;
+  align-items: center;
+
+  }
+}

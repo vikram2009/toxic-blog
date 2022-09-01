@@ -1,0 +1,27 @@
+{
+  "name": "canvas",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "next dev -p 3000",
+    "build": "next build && next export -o dist",
+    "tauri": "tauri"
+  },
+  "dependencies": {
+    "@catppuccin/palette": "^0.1.5",
+    "@heroicons/react": "^2.0.8",
+    "@stitches/react": "^1.2.8",
+    "@tauri-apps/api": "^1.0.2",
+    "bootstrap-icons": "^1.9.1",
+    "framer-motion": "^7.2.1",
+    "heroicons-react": "^1.4.1",
+    "next": "^12.2.5",
+    "next-themes": "^0.2.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-top-loading-bar": "^2.1.0"
+  },
+  "devDependencies": {
+    "@tauri-apps/cli": "^1.0.5"
+  }
+}
