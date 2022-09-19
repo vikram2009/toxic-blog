@@ -1,8 +1,10 @@
 import Head from 'next/head'
 
 import styles from '../styles/Home.module.css'
+import copy from 'copy-text-to-clipboard';
 
 export default function Home() {
+  
   return (
     <div className={styles.container}>
       <Head>
@@ -20,7 +22,8 @@ export default function Home() {
 <br/>
         <p className={styles.description}>
           Get started by pasting this into ur favorite terminal{' '}
-          <code className={styles.code}>npm i nextjs-blog-vikramsrinivas</code>
+         
+         <code className={styles.code}>npm i nextjs-blog-vikramsrinivas </code>
         </p>
 
       </main>
