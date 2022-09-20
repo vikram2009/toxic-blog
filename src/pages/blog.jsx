@@ -25,9 +25,12 @@ const Blog = () => {
 
 {names.map((todo) => {
   return(
+    
+    <Link href={`./mw/${todo}`}>
     <h1 className={styles.blognames}>
       {todo}
     </h1>
+    </Link>
   )
 })}
 
