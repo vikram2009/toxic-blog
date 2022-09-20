@@ -25,7 +25,7 @@ const Blog = () => {
 
 {names.map((todo) => {
   return(
-    <h1>
+    <h1 className={styles.blognames}>
       {todo}
     </h1>
   )
