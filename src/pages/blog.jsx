@@ -5,6 +5,7 @@ import Link from 'next/link'
 import { useState } from 'react'
 
 
+
 const Blog = () => {
 
   const {names} = require("../blogdata/blogs.json")
@@ -23,15 +24,15 @@ const Blog = () => {
         </Head>
 <main className={styles.content}>
 
-{names.map((todo) => {
+{names.map((blgs) => {
   return(
     
-    <Link href={`./mw/${todo}`}>
-    <h1 className={styles.blognames}>
-      {todo}
+    <Link href={`./mw/${blgs}`} >
+    <h1 className={styles.blognames}  >
+      {blgs} 
     </h1>
     </Link>
-  )
+  )                                                                          
 })}
 
 

@@ -1,16 +1,16 @@
 {
-    "names": ["Social" , "Next"],
+  "names": ["Welcome", "Next"],
 
-    "blogs": {
-       "Social":{
-        "name": "Social",
-        "content":"",
-        "author": "Toxic Coder"
-       },
-       "Next":{
-        "name": "Next",
-        "content":"",
-        "author": "Toxic Coder"
-       }
+  "blogs": {
+    "Welcome": {
+      "name": "Welcome",
+      "content": "welcome to toxic blog , *find solutions for ur problems *fix bugs easily and contact me if any help needed (email in about) ",
+      "author": "Toxic Coder"
+    },
+    "Next": {
+      "name": "Next",
+      "content": "Next js is a backend and frontend framwork developed and maintained by vercel ",
+      "author": "Toxic Coder"
     }
+  }
 }

@@ -32,19 +32,32 @@ padding: .8em 1em;
 width: 30rem;
 }
 
-@media only screen and (max-width: 750px) {
-  .content {
-    justify-content: center;
-  align-items: center;
-padding: 140px;
-  padding-left:155px;
-  }
-}
+
 
 @media only screen and (max-width: 600px) {
   .content {
     justify-content: center;
   align-items: center;
+  padding-left: 10px;
+
+  }
+}
+
+@media screen and (max-width:700px) and (min-width:601px) {
+  .content {
+    justify-content: center;
+  align-items: center;
+  padding-left: 87px;
+
+  
+  }
+}
+
+@media only screen and (min-width: 701px ) and (max-width: 1300px) {
+  .content {
+    justify-content: center;
+  align-items: center;
+  padding-left: 224px;
 
   }
 }
