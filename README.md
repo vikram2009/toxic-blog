@@ -2,7 +2,7 @@ hey coder ,
 this blog has no data rn
 as this blog is a template
 fork this on github or clone it
-gh repo url :- https://github.com/vikram2009/to...
+gh repo url :- https://github.com/vikram2009/toxic-blog
 
 you can view this as website on :- https://blog.vikramsrinivas.me/
 windows desktop app is also available check github
